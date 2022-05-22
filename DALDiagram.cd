@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.BaseDish">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseDish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Dish" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="DAL.BaseDish" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="1.796" />
+        <Point X="8.5" Y="2.171" />
+        <Point X="6.75" Y="2.171" />
+        <Point X="6.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dish.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.SeasonDish">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABAAAAAAACAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SeasonDish.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.TypeDish">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAAQABAAAAAAACAAAAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>TypeDish.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.Repository&lt;T&gt;">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIEAAAAAAAQAIAAAAIAAAAAAASAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.DBContext">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQAQAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.UOW">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAAAQABAAAAQQAAAAAAAAAAAAEEACAAEAAAA=</HashCode>
+      <FileName>OUW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DAL.IMap">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAL.IDishRepository&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAIAAAAIAAAAAAACAAAgAAAAAAAAA=</HashCode>
+      <FileName>IDishRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
